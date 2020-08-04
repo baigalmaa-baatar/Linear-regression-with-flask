@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The salary prediction</h1>
+
+<form action="{{ url_for('predict') }}" method='POST'>
+    <label for="YearsExperience">Years of experience</label>
+    <input type="text" name="YearsExperience">
+    <input type="submit" value="Predict salary">
+</form>
+
+<p>Click on the submit button to get estimated salary.</p>
+
+</body>
+</html>
