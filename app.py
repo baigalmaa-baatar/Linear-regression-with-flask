@@ -21,7 +21,7 @@ def index():
 def predict():
     if request.method == 'POST':
         try:
-            regressor = joblib.load("linear_regression_model.pkl")
+            regressor = joblib.load("linear_regression_model.joblib")
             # Get years of experience from input form index.html
             data = dict(request.form.items())
             year_of_experience = float(data['YearsExperience'])
