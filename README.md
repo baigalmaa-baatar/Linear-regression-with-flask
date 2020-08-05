@@ -1,6 +1,12 @@
 A web application with Python + Flask + PostgreSQL and deploy on Azure.
 An application will predict the salary based on your working years experience.
 
+![](Images/Capture.PNG)
+![](Images/Capture1.PNG)
+
+
+
+
 Follow the steps below:
 ​
 1) Create or fork these files:
